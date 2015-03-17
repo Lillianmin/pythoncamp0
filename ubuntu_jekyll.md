@@ -1,4 +1,4 @@
-#uubntu 搭建jekyll环境
+#ubuntu 搭建jekyll环境
 
 ##安装ruby
 ```
