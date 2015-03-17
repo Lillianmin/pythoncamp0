@@ -1,44 +1,48 @@
-uubntu 搭建jekyll环境
-============
-安装ruby
-=
+#uubntu 搭建jekyll环境
 
+##安装ruby
+```
 sudo apt-get install ruby
 sudo apt-get install ruby-dev
-
-更改gem源
-=
-列出源
+```
+##更改gem源
+###列出源
+```
 gem sources -l
-
 *** CURRENT SOURCES ***
 
 https://rubygems.org/
-
-删除源
+```
+###删除源
+```
 gem sources --remove https://rubygems.org/
 https://rubygems.org/ removed from sources
+```
 
-
-添加源
+###添加源
+```
 gem sources -a http://ruby.taobao.org/
 http://ruby.taobao.org/ added to sources
-
-查看更改后的源
+```
+###查看更改后的源
+```
 gem sources -l
 *** CURRENT SOURCES ***
 
 http://ruby.taobao.org/
+```
 
-
-
-安装jekyll
+##安装jekyll
+```
 sudo gem install jekyll 
-
-安装markdown解析
+```
+##安装markdown解析
+```
 sudo gem install rdiscount
+```
 
-测试jekyll
+##测试jekyll
+```
 jekyll new test
 /home/mll/.gem/ruby/2.1.0/gems/execjs-2.4.0/lib/execjs/runtimes.rb:45:in `autodetect': Could not find a JavaScript runtime. 
 
@@ -66,16 +70,22 @@ See https://github.com/sstephenson/execjs for a list of available runtimes. (Exe
 	from /usr/local/bin/jekyll:23:in `load'
 	from /usr/local/bin/jekyll:23:in `<main>'
 	
-	安装
-sudo apt-get install nodejs
+	```
+	
+##安装nodejs解決
 
+	```
+    sudo apt-get install nodejs
+    ```
 
-mkdir note
-   13  cd note
-   14  jekyll new .
-   18  git init
-   19  git add -A
-   20  git commit
-   23  git remote add origin git@github.com:Lillianmin/note.git
-   31  git push origin master
-
+##測試jekyll
+```
+     mkdir note
+     cd note
+     jekyll new .
+     git init
+     git add -A
+     git commit
+     git remote add origin git@github.com:xxx/note.git
+     git push origin master
+```
