@@ -69,14 +69,13 @@ See https://github.com/sstephenson/execjs for a list of available runtimes. (Exe
 	from /home/mll/.gem/ruby/2.1.0/gems/jekyll-2.5.3/bin/jekyll:6:in `<top (required)>'
 	from /usr/local/bin/jekyll:23:in `load'
 	from /usr/local/bin/jekyll:23:in `<main>'
-	
-	```
+```
 	
 ##安装nodejs解決
 
-	```
+```
     sudo apt-get install nodejs
-    ```
+```
 
 ##測試jekyll
 ```
