@@ -2,7 +2,7 @@
 
 1. 使用Github用户登陆Gitbook
 ![](login_with_github.png)
-2. ”Account Setting“->"Profile"->"Github",设置权限Access To Webhook 或者Acces To public Repositories”。此处一定要设置，否则link to Github会有问题。参考[GitHub Integration](http://help.gitbook.com/github/index.html)
+2. "Account Setting“->"Profile"->"Github",设置权限Access To Webhook 或者Acces To public Repositories”。此处一定要设置，否则link to Github会有问题。参考[GitHub Integration](http://help.gitbook.com/github/index.html)
 ![](permission.png)
 2. 登陆后，点击“Create new book”,输入Title,"Create book".
 ![](create_book.png)
