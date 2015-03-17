@@ -15,3 +15,4 @@
 7. 此时，查看book还是会提示404,是因为gitbook服务器在对刚刚link的repository进行编译。进入book的Settings，查看history，会有一条记录，而且记录下方的epub/website/mobi等均为黑色，点击右侧码进去，则可以看到提示，正在running.证明link是成功了的。
 ![](404.png)![](running.png)![](running_info.png)
 8. 过半小时再查看，就可以看到内容。
+![](ok.png) 
