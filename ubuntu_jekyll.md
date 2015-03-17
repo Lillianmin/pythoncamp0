@@ -77,7 +77,7 @@ See https://github.com/sstephenson/execjs for a list of available runtimes. (Exe
     sudo apt-get install nodejs
 ```
 
-##測試jekyll
+##测试jekyll
 ```
      mkdir note
      cd note
