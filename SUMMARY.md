@@ -1,8 +1,7 @@
 # SUMMARY
-
-* [缘起](/source/begin.md)
-* [part1](./source/part1/introduction)
-  * [part1.1](./source/part1/1.md)
-* [part2](./source/part2/introduction)
-  * [part2.2](./source/part2/1.md)
-* [结尾](./source/end.md)
+* [工欲善其事，必先利其器](/source/tools/index.md)
+  * [Git](/source/tools/git.md)
+  * [Link GitBook from GitHub](/source/tools/gitbook_link_github.md)
+  * [jekyll on ubuntu](/source/tools/ubuntu_jekykk.md)
+  * [Markdown](/source/tools/markdown_study.md)
+* 开启Python的世界
