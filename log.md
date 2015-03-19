@@ -4,7 +4,7 @@
 
 # 3.16
 * 添加gitbook link gtihub 相关
-× 添加markdown,markdown语法与注意事项在此更新
+* 添加markdown,markdown语法与注意事项在此更新
 
 # 3.17
 * 整理书本目录
