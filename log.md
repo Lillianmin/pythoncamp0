@@ -11,3 +11,6 @@
 
 # 3.18
 * 添加ubuntu.md，在此更新ubuntu的使用与技巧
+
+# 3.19
+* 更新markdown_study.md
