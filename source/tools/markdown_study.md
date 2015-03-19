@@ -108,13 +108,6 @@ a~b~
 ````
 code
 ````
-##数据公式
-$$$inline math$$$
-$$
-blocak math
-$$
-还不会
-
 ##表格
 | column | column |
 |--------|--------|
