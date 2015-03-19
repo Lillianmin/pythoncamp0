@@ -25,13 +25,19 @@
 
 ##图片链接
 ![Image](https://www.python.org/static/img/python-logo.png)
-
+```
+![Image](https://www.python.org/static/img/python-logo.png)
+```
 ##文字链接
 [Github](http:/www.github.com “Github”)
-
+```
+[Github](http:/www.github.com “Github”)
+```
 ##邮件链接
 Touch <lillianmin.me@gmail.com>
-
+```
+Touch <lillianmin.me@gmail.com>
+```
 ##参考
 [markdown语法][id]
 ```
@@ -63,14 +69,26 @@ Touch <lillianmin.me@gmail.com>
   2. sub order list 
 2. order list
 3. roder list
-
+```
+1. order list
+  1. sub order list
+  2. sub order list 
+2. order list
+3. roder list
+```
 ##任务列表
 - [x] task list
   - [x] sub task list
   - [ ] sub task list
 - [ ] task list
 - [ ] task list
-
+```
+- [x] task list
+  - [x] sub task list
+  - [ ] sub task list
+- [ ] task list
+- [ ] task list
+```
 ##单行代码引用
 `code`
 ```
@@ -80,11 +98,20 @@ Touch <lillianmin.me@gmail.com>
 ````
 code
 ````
-
+```
+````
+code
+````
+```
 ##表格
 | column | column |
 |--------|--------|
 | conetnt| content|
+```
+| column | column |
+|--------|--------|
+| conetnt| content|
+```
 ##引用
 >quote
 >quote
