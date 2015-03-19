@@ -65,9 +65,9 @@ a~b~
 @[youtube](https://www.youtube.com/watch?v=ShlW5plD_40)
 
 ##参考
-[脚注][id]
+[markdown语法][id]
 ```
-[脚注][id]
+[markdown语法][id]
 ```
 ##无序列表
 - unorder list
@@ -101,12 +101,6 @@ a~b~
   - [ ] sub task list
 - [ ] task list
 - [ ] task list
-[^id]
-[^id]:text 
-
-[id]
-[^id]:text 
-
 
 ##单行代码引用
 `code`
@@ -159,4 +153,4 @@ _ _ _
 _ _ _
 ```
 
-[id]:	http:www.google.com	"脚注示例"
+[id]:	http://daringfireball.net/projects/markdown/syntax	"脚注示例"
