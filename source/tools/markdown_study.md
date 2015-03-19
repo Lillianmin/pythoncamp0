@@ -32,28 +32,7 @@
 ##==高亮==
 ```
 前后两个=表示高亮
-##上标
-###上标在后面
-a^b^
-```
-a^b^
-```
-###上标在前面
-^a^b
-```
-^a^b
-```
-##下标
-###下标在后面
-a~b~
-```
-a~b~
-```
-###下标在前面
-~a~b
-```
-~a~b
-```
+
 ##图片链接
 ![Image](https://www.python.org/static/img/python-logo.png)
 
@@ -94,6 +73,7 @@ a~b~
   2. sub order list 
 2. order list
 3. roder list
+
 ##任务列表
 - [x] task list
   - [x] sub task list
