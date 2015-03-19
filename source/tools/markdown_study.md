@@ -17,21 +17,11 @@
 ```
 前后一个*表示文字斜体
 
-##++下划线++
-```
-##++下划线++
-```
-前后两个+表示下划线
 ##~~中划线~~
 ```
 ##~~中划线~~
 ```
 前后两个～表示中划线
-##==高亮==
-```
-##==高亮==
-```
-前后两个=表示高亮
 
 ##图片链接
 ![Image](https://www.python.org/static/img/python-logo.png)
@@ -39,8 +29,8 @@
 ##文字链接
 [Github](http:/www.github.com “Github”)
 
-##多媒体链接
-@[youtube](https://www.youtube.com/watch?v=ShlW5plD_40)
+##邮件链接
+Touch <lillianmin.me@gmail.com>
 
 ##参考
 [markdown语法][id]
