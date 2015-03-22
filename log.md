@@ -14,3 +14,6 @@
 
 # 3.19
 * 更新markdown_study.md
+
+# 3.22 
+* 更新git_vim_win_chinese.md
