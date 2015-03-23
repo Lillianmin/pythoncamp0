@@ -6,3 +6,4 @@
   * [install jekyll on ubuntu](/source/tools/ubuntu_jekyll.md)
   * [Markdown](/source/tools/markdown_study.md)
 * 开启Python的世界
+  * [Hello world](/source/python/helloworld.md)
