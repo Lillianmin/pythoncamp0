@@ -55,3 +55,22 @@ print(...)
 [python3 reference](https://docs.python.org/3/reference/index.html)
 [python2 标准库在线文档](https://docs.python.org/2/library/index.html)
 [python3 标准库在线文档](https://docs.python.org/3/library/index.html)
+
+
+#将本地库hello.py提交至github
+第一次提交要使用
+```
+$git push origin master
+```
+若直接使用
+```
+$git push
+```
+会出现
+```
+No refs in common and none specified; doing nothing.
+Perhaps you should specify a branch such as 'master'.
+Everything up-to-date
+```
+因为本地不知道往远程哪里提交。
+
