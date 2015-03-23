@@ -12,8 +12,11 @@
 # 3.18
 * 添加ubuntu.md，在此更新ubuntu的使用与技巧
 
-# 3.22
-* 添加git与viwindows下乱码问题解决
+# 3.19
+* 更新markdown_study.md
+
+# 3.22 
+* 更新git_vim_win_chinese.md
 
 # 3.23
-× 添加helloworld
+* 添加helloworld
