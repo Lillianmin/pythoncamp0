@@ -26,4 +26,7 @@
 * courseua week1a
 
 # 3.26
-* courseua week1b
+* courseua week2b
+* guess the game code
+* basic python md
+* guess the game md

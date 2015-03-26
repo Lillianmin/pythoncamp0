@@ -1,4 +1,18 @@
-# 安装simplegui
+# 我的代码位置
+[codeskulptor](http://www.codeskulptor.org/#user39_3kDvDJCoh6p8spR.py)
+[pythoncamp0]()
+
+## TODO
+ * 添加时间控制
+ * 添加多语言
+ * 添加背景音乐与音效
+ * 添加背景图片与成功失败效果图
+ * 数字范围以图形的方式画在画布上
+
+## 注意
+ * 输入一定要记得转换成int类型
+
+## 安装simplegui
 * 安装了一个simplegui
 [simplegui on pypi.pytho.org](https://pypi.python.org/pypi/simplegui/0.1.1)
 [simplegui 下载页](http://florian-berger.de/en/software/simplegui/)
@@ -97,7 +111,7 @@ sudo pip uninstall simplegui
 python setup.py install --record files.txt
 cat files.txt | xargs rm -rf
 ```
-# 为什么在终端执行带UIpy会马上退出呢
-* google "Python simpglegui shell closed" 
+### 为什么在终端执行带UIpy会马上退出呢
+* google "Python simpglegui console closed" 
     未果
 

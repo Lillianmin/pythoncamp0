@@ -33,7 +33,8 @@ True与False，不是1与0，也不是true与false
 * 定义
 使用def function_name(param1, param2):
 * 代码块
-代码块不用{}，而是严格用缩进来控制
+代码块不用{}，而是以冒号（:）开始，严格用缩进来控制
+ * 所有代码块都如此。比如if，elif，else
 * 返回值
 函数没有显示的返回类型，根据return的返回值来来确定。如果无return则是返回None。
 

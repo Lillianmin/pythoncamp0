@@ -6,5 +6,7 @@
   * [Link GitBook from GitHub](/source/tools/gitbook_link_github.md)
   * [install jekyll on ubuntu](/source/tools/ubuntu_jekyll.md)
   * [Markdown](/source/tools/markdown_study.md)
-* 开启Python的世界
+* [开启Python的世界](/source/python/index.md)
   * [Hello world](/source/python/helloworld.md)
+  * [python基础](/source/python/python_basic.md)
+  * [guess_number问题](/source/python/guess_number.md)
