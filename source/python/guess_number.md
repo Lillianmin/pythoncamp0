@@ -1,5 +1,5 @@
 # 我的代码位置
-[codeskulptor](http://www.codeskulptor.org/#user39_3kDvDJCoh6p8spR.py)
+[codeskulptor](http://www.codeskulptor.org/#user39_7FF41NsYCLIZDPo.py)
 [pythoncamp0]()
 
 ## TODO
