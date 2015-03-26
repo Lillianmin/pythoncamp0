@@ -1,8 +1,10 @@
 # 我的代码位置
 [codeskulptor](http://www.codeskulptor.org/#user39_7FF41NsYCLIZDPo.py)
-[pythoncamp0]()
+
+[pythoncamp0](https://github.com/Lillianmin/omooc.py/blob/master/src/iippy-1/guess_number.py)
 
 ## TODO
+ * 猜数次数倒计时，功能忘啦。
  * 添加时间控制
  * 添加多语言
  * 添加背景音乐与音效
