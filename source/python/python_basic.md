@@ -20,13 +20,13 @@ float to int 是round down
 // 表示整除
 * 幂
 a的b次方，a ** b
+
 # 布尔计算
 True与False，不是1与0，也不是true与false
 * 与
   and 
 * 或
   or 
-
 * 非
   not 
 
@@ -42,6 +42,9 @@ True与False，不是1与0，也不是true与false
 # 包导入
 使用import,与JAVA一致,不是include
 
-# 
+# str
+* 可以用“abc”，‘abc’赋值，若字符串中有特殊字符如：‘，则一定要用“”
+* 可以用同名数组+index下标来取字符。如：str1 = "abc", char1 = str1[0]
+* 可以用下标范围来取子字符串。str1 = "abc", substr = str1[0:2]。这里substr=“ab”。若取子字符串的起始未指定则子字符串从最前面开始。若末尾未指定则子字符串直至最后。
 
 
