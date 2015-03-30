@@ -15,6 +15,7 @@ $python3 --version
 Python 3.4.0
 ```
 [Python2 Setup and Usage](https://docs.python.org/2/using/index.html)
+
 [Python3 Setup and Usage](https://docs.python.org/3/using/index.html)
 
 # hello world
@@ -50,10 +51,15 @@ print(...)
 
 #在线文档
 [python2 tutorial](http://docs.python.org/2.7/tutorial/)
+
 [python3 tutorial](http://docs.python.org/3.4/tutorial/)
+
 [python2 reference](https://docs.python.org/2/reference/index.html)
+
 [python3 reference](https://docs.python.org/3/reference/index.html)
+
 [python2 标准库在线文档](https://docs.python.org/2/library/index.html)
+
 [python3 标准库在线文档](https://docs.python.org/3/library/index.html)
 
 
