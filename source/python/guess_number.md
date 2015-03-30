@@ -69,7 +69,8 @@ sudo apt-get install python-matplotlib
 ```
 import simpleguitk as simplegui
 ```
-python guess_game.py
+python guess_number.py
+```
 ```
 终端有输出，但没有图形界面
 安装的包还是不对吗？
@@ -88,7 +89,7 @@ sudo python setup.py install
 import SimpleGUICS2Pygame.simpleguics2pygame as simplegui
 ```
 ```
-python guess_game.py
+python guess_number.py
 ```
 UI界面一闪而过，终端有输出
 为了兼容CodeSkulptor与本地代码，使用下面的导入方式:
@@ -101,6 +102,7 @@ except ImportError:
 ```
 由于已经安装了simplegui，但是不是需要的，所以卸载simplegui.
 TODO:如果本地simplegui与CodeSkulptor的simplegui都需要用呢？怎么解决名字冲突的问题？
+
 uninstall simplegui
 [参考][http://stackoverflow.com/questions/1550226/python-setup-py-uninstall]
 ```
