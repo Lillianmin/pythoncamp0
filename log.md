@@ -31,6 +31,10 @@
 * basic python md
 * guess the game md
 
+# 3.27
+* week3a
+
 # 3.30
+* week3b,week4
 * python basic 添加 str
 * 修正一些文件中markdown的排版错误
