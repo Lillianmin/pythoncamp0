@@ -17,6 +17,7 @@
 ## 安装simplegui
 * 安装了一个simplegui
 [simplegui on pypi.pytho.org](https://pypi.python.org/pypi/simplegui/0.1.1)
+
 [simplegui 下载页](http://florian-berger.de/en/software/simplegui/)
 ```
 unzip simplegui-0.1.0.zip
@@ -76,8 +77,11 @@ python guess_number.py
 安装的包还是不对吗？
 * 安装SimpleGUICS2Pygame
 [查找simplegui](https://pypi.python.org/)
+
 [查找结果](https://pypi.python.org/pypi?%3Aaction=search&term=simplegui&submit=search)
+
 SimpleGUICS2Pygame才是CodeSkulptor的
+
 [SimpleGUICS2Pygame](https://pypi.python.org/pypi/SimpleGUICS2Pygame/01.09.00)
 ```
 tar zxvf SimpleGUICS2Pygame-01.09.00.tar.gz 
