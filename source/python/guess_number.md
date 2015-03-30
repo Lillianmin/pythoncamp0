@@ -16,6 +16,7 @@
 
 ## 安装simplegui
 * 安装了一个simplegui
+
 [simplegui on pypi.pytho.org](https://pypi.python.org/pypi/simplegui/0.1.1)
 
 [simplegui 下载页](http://florian-berger.de/en/software/simplegui/)
@@ -54,6 +55,7 @@ pydoc simplegui
 果然里面没有create_frame
 怀疑安装了错误的包
 * 安装SimpleGUITk
+
 [SimpleGUITk](https://pypi.python.org/pypi/SimpleGUITk)
 ```
 tar zxvf SimpleGUITk-1.1.3.tar.gz 
@@ -76,6 +78,7 @@ python guess_number.py
 终端有输出，但没有图形界面
 安装的包还是不对吗？
 * 安装SimpleGUICS2Pygame
+
 [查找simplegui](https://pypi.python.org/)
 
 [查找结果](https://pypi.python.org/pypi?%3Aaction=search&term=simplegui&submit=search)
