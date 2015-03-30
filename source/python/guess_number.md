@@ -49,6 +49,7 @@ python guess_number.py
 ```
 pydoc simplegui
 ```
+```
 果然里面没有create_frame
 怀疑安装了错误的包
 * 安装SimpleGUITk
