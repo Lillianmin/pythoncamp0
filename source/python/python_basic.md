@@ -8,7 +8,7 @@
 不用显示说明，根据值确定变量类型
 
 # 基本数据类型
-int float str
+int float long str
 数据类型转换
 float to int 是round down
 
@@ -22,12 +22,13 @@ float to int 是round down
 a的b次方，a ** b
 # 布尔计算
 True与False，不是1与0，也不是true与false
-* and
- &&
-* or 
- ||
-* not 
- !
+* 与
+  and 
+* 或
+  or 
+
+* 非
+  not 
 
 # 函数
 * 定义
