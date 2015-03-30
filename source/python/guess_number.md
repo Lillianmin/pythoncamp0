@@ -104,14 +104,14 @@ except ImportError:
 TODO:如果本地simplegui与CodeSkulptor的simplegui都需要用呢？怎么解决名字冲突的问题？
 
 uninstall simplegui
-[参考][http://stackoverflow.com/questions/1550226/python-setup-py-uninstall]
+[参考](http://stackoverflow.com/questions/1550226/python-setup-py-uninstall)
 ```
 easy_install pip
 pip freeze
 sudo pip uninstall simplegui
 ```
 另一种卸载方式:
-[参考][http://stackoverflow.com/questions/1231688/how-do-i-remove-packages-installed-with-pythons-easy-install]
+[参考](http://stackoverflow.com/questions/1231688/how-do-i-remove-packages-installed-with-pythons-easy-install)
 ```
 python setup.py install --record files.txt
 cat files.txt | xargs rm -rf
