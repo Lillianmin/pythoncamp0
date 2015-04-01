@@ -7,6 +7,9 @@
 * timer
 * play
 
+Bug:
+* set interval not work when playing
+
 # V2
 * color picker
 * file save
