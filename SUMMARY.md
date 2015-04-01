@@ -8,5 +8,6 @@
   * [Markdown](/source/tools/markdown_study.md)
 * [开启Python的世界](/source/python/index.md)
   * [Hello world](/source/python/helloworld.md)
-  * [python基础](/source/python/python_basic.md)
-  * [guess_number问题](/source/python/guess_number.md)
+  * [Python基础](/source/python/python_basic.md)
+  * [Guess the Number](/source/python/guess_number.md)
+  * [simplegui本地环境](/source/python/local_simplegui.md)
