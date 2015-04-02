@@ -38,3 +38,14 @@
 * week3b,week4
 * python basic 添加 str
 * 修正一些文件中markdown的排版错误
+
+# 3.31
+# week5 视频
+# iippy-2 图形点画
+
+# 4.1
+* 添加list至python基础
+* iippy-2 基本款
+
+# 4.2
+* iippy-2 添加取色板
