@@ -19,3 +19,22 @@ Bug:
 
 
 
+
+
+
+
+1.create your_draw.py
+2.
+add color and timer
+3.
+first version
+todo add color picker
+save play as file
+run in codescruptro, fix tab not the same issue(4/8 empty). So alwys use four Blackspace as Indenty
+
+4.
+add color_picker
+
+play from begin to end(not end to begin)
+
+run in codescruptor,and fix global in else not work issue
