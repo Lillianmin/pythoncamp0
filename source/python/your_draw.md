@@ -31,7 +31,7 @@
 * 寻找知识源头
   * 在google与stackoverflow寻找提示
   * 在python.org查找需要用到的知识点
-  * 善用pydoc（windows: python -m pydoc 查看帮助
+  * 善用pydoc（windows: python -m pydoc) 查看帮助
 
 ## 构思
 ### 基本功能
@@ -45,7 +45,7 @@
 
 
 ## 基本功能实现
-* ![基本功能流程图](image/Your_Draw.png)
+![基本功能流程图](image/Your_Draw.png)
 
 ### 实现基本的点彩绘图、选择形状
   * frame 添加Circle, Square, Triangle形状选择按钮,完成形状设置
@@ -92,12 +92,12 @@ frame.set_mouseclick_handler(mouse_click)
 shape={"x":pos[0], "y":pos[1], "shape":cur_shape, "color":cur_color}
  shape_list.append(shape)
 ```
+
 * 绘制所有shape
 ```
 def draw(canvas):
     for shape in shape_list:
         draw_shape(canvas,shape)
-
 def draw_shape(canvas, shape):
     if shape["shape"] == "Circle":
         canvas.draw_circle([shape["x"], shape["y"]], 30, 2, "Black", shape["color"])
@@ -110,6 +110,7 @@ def draw_shape(canvas, shape):
 ```
 ### 添加timer，添加回放，完成V1
 * 设置定时器interval需要在timer stop后，设置才有效
+
 ```
 def set_interval(input_interval):
     if play_mode:
@@ -123,7 +124,9 @@ def set_interval(input_interval):
         show_message("Please Input a Integer for Interval!")
         interval_input.set_text("")
 ```
+
 * play/stop按钮，作为toggle按钮，可以进行开始和停止控制
+
 ```
 def play_stop():
     global message,play_mode,play_index
