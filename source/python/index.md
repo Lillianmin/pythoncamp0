@@ -1,5 +1,5 @@
   * [Hello world](helloworld.md)
   * [Python基础](python_basic.md)
   * [Guess the Number](guess_number.md)
-  * [simplegui本地环境](local_simplegui.md)
+  * [ubuntu与windows simplegui本地环境](local_simplegui.md)
   * [Your Draw](your_draw.md)
