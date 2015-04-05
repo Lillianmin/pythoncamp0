@@ -56,6 +56,10 @@
 * 文件操作测试代码
 
 # 4.4
-* Windows simplegui环境搭建与比记
+* Windows simplegui环境搭建与笔记（未完成）
 * Your Draw教程（未完成）
 
+# 4.5
+* windows simplegui环境搭建
+* Your Draw 添加文件保存于打开play的功能
+* 完成YourDraw教程
