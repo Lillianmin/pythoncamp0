@@ -63,3 +63,7 @@
 * windows simplegui环境搭建
 * Your Draw 添加文件保存于打开play的功能
 * 完成YourDraw教程
+
+# 4.10
+* weeb 6 video
+* ai guess number coding for single game, save and play
