@@ -57,16 +57,32 @@
 + GuessNumberGame:
   - start()
 ####第一阶段改进
-- 将输出画到canvas而不是在终端输出
++ 将输出画到canvas而不是在终端输出
+  - 将quiz的message改为msg_list,每次有新的消息时,append到后面
+  - 将原来在game中draw message改为draw msg_list
+  - 增大画布方便输出
 ###实现游戏的保存与回放
-####
 * 历史记录，负责一局游戏中，电脑出题记录，AI猜数记录，保存至文件，回放。
 + GameHistory:
-  - add_quiz()
-  - add_guess()
+  - add_quiz(quiz)
+  - add_guess(guess)
   - save()
   - play()
-
++ GuessNumberGame中添加GameHistory对象
+  - quiz时,调用history的add_quiz
+  - guess时,调用history的add_guess
++ GuessNumberGame中添加set_play(mode)方法
+  - 若是play则,向画布输出history的过程
+  - 若不是play,向画布输出game的过程
++ 由于之前draw(canvas),通过game的变化来输出txt,实际上game是不变的,所以,输出只有一次
+  - 添加一个全局变量msg_flag,每次quiz或者history的msg_list变化的,msg_flag都反转,从而触发canvas重画
+  - 这个方法有点土啊, 不便于类的独立,更好的方法?
+  - 掉坑里啦.canvas每秒执行draw 60 次啊,不用去怀疑global,而是draw函数里的变量有误,导致一直在重画相同的东西,造成没有更新的错觉!`
++ frame中添加save\play按扭
+  - 选择save后,选择保存的文件路径,调用GameHistory的save保存数据
+  - 选择play后,选择打开的文件后,调用GameHistory的play读取数据,完成play过程的打印.
+  - 文件的操作在[Your Draw](your_draw.md)中的附加功能实现部分
+  - 添加SyntaxError时,文件格式错误提示
 
 ##调试中的问题
 + game.draw_text(canvas, [50, 50], 24, "Red")
@@ -98,13 +114,9 @@
   TypeError: 'int' object is not callable
   - 类中有一个变量叫guess,函数名与变量名一致时会导致这样的错误
   - 避免函数名与变量名名字一致
-+ global game, game.quiz.message
-                     ^
-  SyntaxError: invalid syntax
-  global game, game.self.quiz.message
++ global game, game.self.quiz.message
                       ^
   SyntaxError: invalid syntax
-  - 在init中以self.quiz形式初始化的对象,无法在类外部以game.quiz形式访问
   - self只能在类内部访问
 + game.start()在frame.start()之后调用,print到终端的输出要在关闭了frame后才会输出
   - 难道是frame.start()阻塞了进程了?
