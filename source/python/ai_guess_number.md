@@ -1,5 +1,6 @@
-﻿## AI Guess the Number
-##目的
+﻿# AI Guess the Number
+
+## 目的
 - 唯一作业:
   + 猜数游戏AI版
 - 期待:
@@ -131,9 +132,12 @@
   TypeError: 'int' object is not callable
   - 类中有一个变量叫guess,函数名与变量名一致时会导致这样的错误
   - 避免函数名与变量名名字一致
-+ global game, game.self.quiz.message
++ 
+  ```
+  global game, game.self.quiz.message
                       ^
   SyntaxError: invalid syntax
+  ````
   - self只能在类内部访问
 + game.start()在frame.start()之后调用,print到终端的输出要在关闭了frame后才会输出
   - 难道是frame.start()阻塞了进程了?
