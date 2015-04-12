@@ -104,12 +104,13 @@
 
 ##调试中的问题
 + 
-  ```
+```
   game.draw_text(canvas, [50, 50], 24, "Red")
   NameError: global name 'game' is not defined
-  ```
+```
   - 变量声明的代码必须要在函数里面调用该变量之前
   - 同理,函数也是一样的,必须要在调用该函数的代码块之前
+
 + 
 ```
   game = GuessNumberGame()
@@ -119,6 +120,7 @@
 ```  
   - 在类的函数中,第一个参数总是self
   - 函数在调用之时,从代码看只传递了4个参数,实际上有将调用该函数的对象作为第一个参数传递进去
+
 + 
 ```
   def print():
@@ -126,12 +128,14 @@
   SyntaxError: invalid syntax
 ```  
   - 是因为函数名称比较特别吗?
+
 + 
 ```
   canvas.draw_text(self.quiz.message, pos, size, color)
   AttributeError: QuizSetter instance has no attribute 'message'
 ``` 
   - self.message要在__init__中初始化过才有效
+
 + 
 ``` 
   return True
@@ -139,6 +143,7 @@
   IndentationError: unexpected indent
 ```
   - 缩进不对
+
 + 
 ```
   quiz_range = quiz.quiz()
@@ -146,6 +151,7 @@
 ```  
   - 在__init__中以self.quiz初始化的对象,在调用时,必须以self.quiz调用
   - 也可以在__init__之外,初始化quiz对象,这样就可以直接用quiz调用了
+
 + 
 ```
   guess = self.ai.guess(quiz_range[0], quiz_range[1])
@@ -153,18 +159,21 @@
 ```  
   - 类中有一个变量叫guess,函数名与变量名一致时会导致这样的错误
   - 避免函数名与变量名名字一致
+
 + 
-  ```
+```
   global game, game.self.quiz.message
                       ^
   SyntaxError: invalid syntax
-  ````
+````
   - self只能在类内部访问
+
 + game.start()在frame.start()之后调用,print到终端的输出要在关闭了frame后才会输出
   - 难道是frame.start()阻塞了进程了?
   - 将game.start()放到start button的事件中。
   - start一次以后，再start不是新的游戏，而是之前重复的游戏。
   - start中，重新初始化。
+
 + 点击save、play后，若不选择文件，则会出现'NoneType' object has no attribute 'write'的错误
   - 增加返回文件是否为None的判断，不为None再进行读写操作。
 
