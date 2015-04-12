@@ -1,4 +1,4 @@
-# AI Guess the Number
+﻿# AI Guess the Number
 ##目的
 - 唯一作业:
   + 猜数游戏AI版
@@ -32,15 +32,14 @@
 + 视频: 1.2h
 + 构思:
   - 第一阶段: 0.5h
+  - 第二阶段：0.5h
+  - 第三阶段: 0.5h
 + 代码
-  - 第一阶段:2h
-+ 笔记:养成随时记录的习惯
-  - 作业出来,将作业作为目的写进笔记
-  - 写代码之前,先第一个目标进行分解,规划类
-  - 依据目的,不断迭代,每次迭代之前,先构思
-  - 随时记录调试过程中的问题与解决方式
-  - 随时记录每一个阶段的时间花费
-  - 0.5h
+  - 第一阶段: 2h
+  - 第二阶段: 1h
+  - 改进+第三阶段: 2h
++ 笔记
+  - 0.5h+0.5h
 
 ##构思过程
 ###实现单个AI自动猜数
@@ -56,11 +55,6 @@
   - guess(min_value, max_value)
 + GuessNumberGame:
   - start()
-####第一阶段改进
-+ 将输出画到canvas而不是在终端输出
-  - 将quiz的message改为msg_list,每次有新的消息时,append到后面
-  - 将原来在game中draw message改为draw msg_list
-  - 增大画布方便输出
 ###实现游戏的保存与回放
 * 历史记录，负责一局游戏中，电脑出题记录，AI猜数记录，保存至文件，回放。
 + GameHistory:
@@ -83,6 +77,25 @@
   - 选择play后,选择打开的文件后,调用GameHistory的play读取数据,完成play过程的打印.
   - 文件的操作在[Your Draw](your_draw.md)中的附加功能实现部分
   - 添加SyntaxError时,文件格式错误提示
+###每次ai猜数次数的记录
+将每次的猜数次数保存到程序运行的当前文件夹下的ai_count文件下面。一个AICount类专门管理次数的保存、读取、计算。并在game结束时保存次数、计算平均值。
++ AICount
+  - save_count(count)
+    * 这里打开文件要以'a'的方式，若以'w'的方式则会将以前的记录覆盖，只记录最后的记录
+  - read_counts()
+  - average_count()
+
+##改进
++ 将输出画到canvas而不是在终端输出
+  - 将quiz的message改为msg_list,每次有新的消息时,append到后面
+  - 将原来在game中draw message改为draw msg_list
+  - 增大画布方便输出
++ 每次start时，重新开始游戏
+  - 在game的start中，重新初始化quiz，guess，history
++ 回放
+  - 这里回放策略是，将同一局游戏重新玩了一局。
+  - quiz的初始范围还原、guess的初始值还原、history清空。
+  - 重点是quiz的结果值不要重新生成。
 
 ##调试中的问题
 + game.draw_text(canvas, [50, 50], 24, "Red")
@@ -120,4 +133,11 @@
   - self只能在类内部访问
 + game.start()在frame.start()之后调用,print到终端的输出要在关闭了frame后才会输出
   - 难道是frame.start()阻塞了进程了?
-  - 将game.start()放到frame.start()之前
+  - 将game.start()放到start button的事件中。
+  - start一次以后，再start不是新的游戏，而是之前重复的游戏。
+  - start中，重新初始化。
++ 点击save、play后，若不选择文件，则会出现'NoneType' object has no attribute 'write'的错误
+  - 增加返回文件是否为None的判断，不为None再进行读写操作。
+
+##代码位置
+[ai_guess_number](https://github.com/Lillianmin/omooc.py/blob/master/src/iippy-3/ai_guess_number.py)

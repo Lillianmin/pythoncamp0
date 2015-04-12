@@ -67,3 +67,7 @@
 # 4.10
 * weeb 6 video
 * ai guess number coding for single game, save and play
+
+# 4.12
+* add replay function
+* add AICount function

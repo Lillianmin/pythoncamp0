@@ -3,3 +3,4 @@
   * [Guess the Number](guess_number.md)
   * [ubuntu与windows simplegui本地环境](local_simplegui.md)
   * [Your Draw](your_draw.md)
+  * [AI Guess the Number](ai_guess_number.md)

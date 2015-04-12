@@ -12,3 +12,4 @@
   * [Guess the Number](/source/python/guess_number.md)
   * [ubuntu与windows simplegui本地环境](/source/python/local_simplegui.md)
   * [Your Draw](/source/python/your_draw.md)
+  * [AI Guess the Number](/source/python/ai_guess_number.md)
